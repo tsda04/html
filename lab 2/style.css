@@ -1,0 +1,65 @@
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+/* для контейнера */
+.content {
+    display: flex;
+    margin: 20px;
+}
+
+/* для левой части */
+.content-left {
+    background-color: #ffffff;
+    margin-right: 20px;
+    padding: 20px; /* Внутренний отступ */
+    border-radius: 10px;
+    width: 60%; /* Ширина этой части */
+}
+
+/* для правой части */
+.content-right {
+    padding: 20px;
+    border-radius: 10px;
+    width: 40%;
+}
+
+h1 {
+    font-size: 24px;
+    color: #333;
+}
+
+h2, h3 {
+    margin-bottom: 10px; /* Отступ снизу */
+}
+
+p {
+    font-size: 16px;
+    color: #555;
+}
+
+/* для изображения */
+img {
+    display: block;
+    margin: 20px auto;
+    width: 700px;
+    height: auto;
+    border: 10px solid #ffffff;
+    border-radius: 10px;
+}
+
+
+ul, ol {
+    margin-left: 2em; /* Отступ от левого края для списков */
+}
+
+/* для ссылок */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline; /* Подчеркиваем ссылку при наведении */
+}
