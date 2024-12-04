@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+          rel="stylesheet" integrity="sha384-T3c6Coli6uLrA9TneNEoa7RxnatzjcDSCmG1MX×SR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <title>Информация об актёре</title>
+    <style>
+        #actorCarousel .carousel-item img {
+            height: 700px;
+            object-fit: cover;
+            width: 100%;
+        }
+    </style>
+</head>
+<body data-bs-spy="scroll" data-bs-target="#menu">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <button class="btn btn-light" data-bs-toggle="offcanvas" data-bs-target="#offcanvas" role="button">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M2 12h12v-1H2v1zm0-5h12V6H2v1zm0-5h12V1H2v1z"/>
+                </svg>
+            </button>
+            <a class="navbar-brand" href="#">Том Круз</a>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="info.html">Основная информация</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="films.html">Список фильмов</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="offcanvas offcanvas-start w-25" tabindex="-1" id="offcanvas" data-bs-keyboard="false" data-bs-backdrop="false" data-bs-scroll="true">
+        <div class="offcanvas-header">
+            <h6 class="offcanvas-title d-none d-sm-block" id="offcanvas-title">Меню</h6>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body px-0">
+            <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-start" id="menu">
+                <li class="nav flex-column">
+                    <a href="#actorCarousel" class="nav-link">Карусель</a>
+                </li>
+                <li>
+                    <a href="#films" class="nav-link">Фильмы</a>
+                </li>
+                <li>
+                    <a href="#actorInfo" class="nav-link">Краткая информация об актёре</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="actorCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#actorCarousel" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#actorCarousel" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#actorCarousel" data-bs-slide-to="2"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="image1.jpg" class="d-block w-100" alt="Актёр">
+            </div>
+            <div class="carousel-item">
+                <img src="image2.jpg" class="d-block w-100" alt="Актёр">
+            </div>
+            <div class="carousel-item">
+                <img src="image3.jpg" class="d-block w-100" alt="Актёр">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#actorCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#actorCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        </button>
+    </div>
+
+    <div class="container mt-4" id="films">
+        <h2>Фильмы с актёром</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="poster1.jpg" class="card-img-top" alt="Фильм 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Грань будущего (2014)</h5>
+                        <p class="card-text">В недалёком будущем раса инопланетян вторгается на Землю. Никакая армия в мире не может противостоять им. Майор Уильям Кейдж умирает в бою, но случается невозможное — он оказывается во временной петле. Раз за разом он попадает в один и тот же бой, сражается и умирает снова и снова. И каждое повторяющееся сражение приближает его к разгадке того, как победить врага.</p>
+                        <a href="https://www.kinopoisk.ru/film/505851/" class="btn btn-primary">Смотреть на Кинопоиск</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="poster2.jpg" class="card-img-top" alt="Фильм 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Другие (2001)</h5>
+                        <p class="card-text">Грейс прячет своих детей в уединенном особняке на острове, дожидаясь окончания войны. Её дочь и сын страдают странным заболеванием, они не выносят прямого дневного света. Когда в доме появляются трое новых слуг, им приходится соблюдать правила: все комнаты всегда должны быть в полумраке, и нельзя открывать дверь, пока не заперта предыдущая. Но мерному течению жизни дома вскоре приходит конец - некая потусторонняя сущность пытается нарушить заведённый порядок.</p>
+                        <a href="https://www.kinopoisk.ru/film/494/" class="btn btn-primary">Смотреть на Кинопоиск</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="poster3.jpg" class="card-img-top" alt="Фильм 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Обливион (2013)</h5>
+                        <p class="card-text">Земля, пережившая войну с инопланетными захватчиками, опустела; остатки человечества готовятся покинуть непригодную для жизни планету. Главный герой — техник по обслуживанию дронов — находит разбившийся корабль NASA, команда которого погибает у него на глазах. Ему удаётся спасти лишь одну женщину — и вскоре он понимает, что это перевернёт его жизнь.</p>
+                        <a href="https://www.kinopoisk.ru/film/470185/" class="btn btn-primary">Смотреть на Кинопоиск</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-4" id="actorInfo">
+    <div class="card">
+        <div class="card-header text-center"> <!-- Добавлен класс text-center -->
+            <a class="btn w-100" data-bs-toggle="collapse" href="#collapse">
+                Интересная информация о Томе Крузе
+            </a>
+        </div>
+        <div id="collapse" class="collapse show" data-bs-parent="#id1">
+            <div class="card-body">
+                <p><strong>Полное имя:</strong> Томас Круз Мапотер IV</p>
+                <p><strong>Дата рождения:</strong> 3 июля 1962 года</p>
+                <p><strong>Место рождения:</strong> Сиракьюс, штат Нью-Йорк, США</p>
+                <p><strong>Интересные факты:</strong></p>
+                <ul>
+                    <li>Том Круз начал свою карьеру в кино в 1981 году с небольшой роли в фильме "Только для взрослых".</li>
+                    <li>Он стал известным после выхода фильма "Top Gun" в 1986 году, который сделал его суперзвездой.</li>
+                    <li>Круз является одним из самых высокооплачиваемых актёров в мире и получил три премии "Оскар".</li>
+                    <li>Он активно занимается продюсированием фильмов и является одним из продюсеров серии "Миссия невыполнима".</li>
+                    <li>Том Круз известен своими трюками и часто выполняет их сам, что делает его фильмы ещё более захватывающими.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz4fnFO9gybU6e4pD1zOe3yH8gFf8e4e4M0D8f8e5Bf4+8c5F5jT6bT6j3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-8z5Z1z1z1z1z1z1z1z1z1z1z1z1z1z1z1z1z1z1z1z1z1z1z1z1z1z1z1z1z1" crossorigin="anonymous"></script>
+</body>
+</html>
