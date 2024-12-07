@@ -4,17 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ef3143db-b4d7-4098-ad34-d15ccad138e4" name="Changes" comment="lab 6">
-      <change afterPath="$PROJECT_DIR$/lab 7/films.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab 7/image1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab 7/image2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab 7/image3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab 7/info.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab 7/poster1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab 7/poster2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab 7/poster3.jpg" afterDir="false" />
+    <list default="true" id="ef3143db-b4d7-4098-ad34-d15ccad138e4" name="Changes" comment="lab 7">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lab 3/lab 3(2).html" beforeDir="false" afterPath="$PROJECT_DIR$/lab 3/lab 3(2).html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab 7/films.html" beforeDir="false" afterPath="$PROJECT_DIR$/lab 7/films.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -138,7 +131,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733305821651</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="lab 7">
+      <option name="closed" value="true" />
+      <created>1733510966869</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1733510966869</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -158,6 +159,7 @@
     <MESSAGE value="lab 4-5" />
     <MESSAGE value="test" />
     <MESSAGE value="lab 6" />
-    <option name="LAST_COMMIT_MESSAGE" value="lab 6" />
+    <MESSAGE value="lab 7" />
+    <option name="LAST_COMMIT_MESSAGE" value="lab 7" />
   </component>
 </project>
