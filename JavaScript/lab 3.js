@@ -1,37 +1,73 @@
-//Вариант 4 (22 по списку)
-
-const studentJson = `{
-  "surname": "Иванов",
-  "name": "Иван",
-  "marks": [
-    { "subject": "Математика", "mark": 5 },
-    { "subject": "Физика", "mark": 4 },
-    { "subject": "Информатика", "mark": 5 },
-    { "subject": "История", "mark": 3 },
-    { "subject": "Математика", "mark": 4 }
+const studentJSON = {
+  surname: "Иванов",
+  name: "Иван",
+  marks: [
+    { subject: "Math", mark: 5 },
+    { subject: "Physics", mark: 4 },
+    { subject: "Computer Science", mark: 5 },
+    { subject: "History", mark: 3 }
   ]
-}`;
+};
+
+function printStudentInfo(student) {
+  console.log(`Фамилия: ${student.surname}`);
+  console.log(`Имя: ${student.name}`);
+  console.log("Оценки:");
+  student.marks.forEach(mark => {
+    console.log('%s: %s', mark.subject, mark.mark);
+  });
+}
+
+printStudentInfo(studentJSON);
+
+
+class Mark {
+  constructor(subject, mark) {
+    this.subject = subject;
+    this.mark = mark;
+  }
+}
 
 class Student {
-  constructor(jsonString) {
-    const student = JSON.parse(jsonString);
-    this.surname = student.surname;
-    this.name = student.name;
-    this.marks = student.marks;
+  constructor(surname, name, marks = []) {
+    this.surname = surname;
+    this.name = name;
+    this.marks = marks;
   }
 
-  getMarksBySubject(subjectName) {
-    const marks = [];
-    for (const mark of this.marks) {
-      if (mark.subject === subjectName) {
-        marks.push(mark.mark);
-      }
+  getAverageMark() {
+    if (this.marks.length === 0) {
+      return 0;
     }
-    return marks;
+    const sum = this.marks.reduce((acc, mark) => acc + mark.mark, 0);
+    return sum / this.marks.length;
+  }
+
+  getMarksBySubject(subject) {
+    return this.marks.filter(mark => mark.subject === subject);
+  }
+
+  addMark(subject, mark) {
+    this.marks.push(new Mark(subject, mark));
+  }
+
+  removeMarksBySubject(subject) {
+    this.marks = this.marks.filter(mark => mark.subject !== subject);
   }
 }
 
 
-const student = new Student(studentJson);
-const mathMarks = student.getMarksBySubject("Математика");
-console.log(`Оценки по математике: ${mathMarks.join(", ")}`);
+const student = new Student("Петров", "Петр", [
+  new Mark("Math", 4),
+  new Mark("Physics", 5),
+  new Mark("Computer Science", 4)
+]);
+
+console.log("Средняя оценка:", student.getAverageMark());
+console.log("Оценки по Math:", student.getMarksBySubject("Math"));
+
+student.addMark("English", 5);
+console.log("Оценки после добавления English:", student.marks);
+
+student.removeMarksBySubject("Physics");
+console.log("Оценки после удаления Physics:", student.marks);
