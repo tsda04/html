@@ -4,11 +4,58 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ef3143db-b4d7-4098-ad34-d15ccad138e4" name="Changes" comment="lab 4-7">
+    <list default="true" id="ef3143db-b4d7-4098-ad34-d15ccad138e4" name="Changes" comment="moves">
+      <change afterPath="$PROJECT_DIR$/3 module/lab 1/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3 module/lab 1/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3 module/lab 1/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3 module/lab 1/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3 module/lab 1/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3 module/lab 2/todo-list-jquery/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3 module/lab 2/todo-list-jquery/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3 module/lab 2/todo-list-jquery/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3 module/lab 2/todo-list-js/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3 module/lab 2/todo-list-js/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3 module/lab 2/todo-list-js/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3 module/lab 3/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3 module/lab 3/.vscode/extensions.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3 module/lab 3/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3 module/lab 3/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3 module/lab 3/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3 module/lab 3/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3 module/lab 3/public/vite.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3 module/lab 3/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3 module/lab 3/src/assets/vue.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3 module/lab 3/src/components/HelloWorld.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3 module/lab 3/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3 module/lab 3/src/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3 module/lab 3/vite.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3 module/lab 4/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3 module/lab 4/.vscode/extensions.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3 module/lab 4/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3 module/lab 4/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3 module/lab 4/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3 module/lab 4/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3 module/lab 4/public/vite.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3 module/lab 4/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3 module/lab 4/src/assets/vue.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3 module/lab 4/src/components/HelloWorld.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3 module/lab 4/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3 module/lab 4/src/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3 module/lab 4/vite.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3 module/lab 5/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3 module/lab 5/.vscode/extensions.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3 module/lab 5/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3 module/lab 5/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3 module/lab 5/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3 module/lab 5/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3 module/lab 5/public/vite.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3 module/lab 5/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3 module/lab 5/src/assets/vue.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3 module/lab 5/src/components/HelloWorld.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3 module/lab 5/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3 module/lab 5/src/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3 module/lab 5/vite.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab 3/lab 3(2).html" beforeDir="false" afterPath="$PROJECT_DIR$/lab 3/lab 3(2).html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab 6/image1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab 7/image1.jpg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,24 +94,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/dariatsyganova/PycharmProjects/html/JavaScript&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;promo.javascript&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "/Users/dariatsyganova/PycharmProjects/html/3 module",
+    "settings.editor.selected.configurable": "promo.javascript"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/3 module" />
+      <recent name="$PROJECT_DIR$/3 module/lab 1" />
       <recent name="$PROJECT_DIR$/JavaScript" />
       <recent name="$PROJECT_DIR$/lab 7" />
       <recent name="$PROJECT_DIR$/lab 6" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/lab 2" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/1 module" />
       <recent name="$PROJECT_DIR$/lab 3" />
       <recent name="$PROJECT_DIR$/lab 2" />
       <recent name="$PROJECT_DIR$" />
@@ -174,7 +222,15 @@
       <option name="project" value="LOCAL" />
       <updated>1745047455418</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="moves">
+      <option name="closed" value="true" />
+      <created>1745063593294</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1745063593294</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -199,6 +255,7 @@
     <MESSAGE value="lab 1,2,3" />
     <MESSAGE value="lab 3" />
     <MESSAGE value="lab 4-7" />
-    <option name="LAST_COMMIT_MESSAGE" value="lab 4-7" />
+    <MESSAGE value="moves" />
+    <option name="LAST_COMMIT_MESSAGE" value="moves" />
   </component>
 </project>
