@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ef3143db-b4d7-4098-ad34-d15ccad138e4" name="Changes" comment="3 module">
+    <list default="true" id="ef3143db-b4d7-4098-ad34-d15ccad138e4" name="Changes" comment="exam upd">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -188,7 +188,23 @@
       <option name="project" value="LOCAL" />
       <updated>1745070544820</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="exam">
+      <option name="closed" value="true" />
+      <created>1748448450338</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1748448450338</updated>
+    </task>
+    <task id="LOCAL-00015" summary="exam upd">
+      <option name="closed" value="true" />
+      <created>1748448493322</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1748448493322</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -215,6 +231,8 @@
     <MESSAGE value="lab 4-7" />
     <MESSAGE value="moves" />
     <MESSAGE value="3 module" />
-    <option name="LAST_COMMIT_MESSAGE" value="3 module" />
+    <MESSAGE value="exam" />
+    <MESSAGE value="exam upd" />
+    <option name="LAST_COMMIT_MESSAGE" value="exam upd" />
   </component>
 </project>
