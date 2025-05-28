@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ColorBoxes</title>
+    <style>
+        .color-box {
+            width: 100px;
+            height: 100px;
+            margin: 10px;
+            display: inline-block;
+            cursor: pointer;
+        }
+        .container {
+            margin: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container" id="colorBoxesContainer"></div>
+
+    <script>
+        class ColorBoxes {
+            constructor() {
+                this.colors = ['red', 'green', 'blue', 'yellow', 'purple'];
+                this.container = document.getElementById('colorBoxesContainer');
+                this.init();
+            }
+
+            init() {
+                this.colors.forEach(color => {
+                    const box = document.createElement('div');
+                    box.className = 'color-box';
+                    box.style.backgroundColor = color;
+                    box.addEventListener('click', () => this.changeColor(box));
+                    this.container.appendChild(box);
+                });
+            }
+
+            changeColor(box) {
+                const randomColor = this.getRandomColor();
+                box.style.backgroundColor = randomColor;
+            }
+
+            getRandomColor() {
+                const letters = '0123456789ABCDEF';
+                let color = '#';
+                for (let i = 0; i < 6; i++) {
+                    color += letters[Math.floor(Math.random() * 16)];
+                }
+                return color;
+            }
+        }
+
+        // Инициализация при загрузке страницы
+        document.addEventListener('DOMContentLoaded', () => {
+            new ColorBoxes();
+        });
+    </script>
+</body>
+</html></title>
+</head>
+<body>
+
+</body>
+</html>

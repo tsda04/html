@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Профиль</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .form-section {
+            margin-bottom: 15px;
+            padding-bottom: 10px;
+            font-size: 17px;
+        }
+
+        .field-header {
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        .with-top-border {
+            border-top: 1px solid #eee;
+            padding-top: 15px;
+        }
+
+        .field-title {
+            font-weight: bold;
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        .field-description {
+            color: #666;
+            font-size: 0.9em;
+            font-style: italic;
+        }
+
+        input[type="text"] {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        .add-button {
+            background: none;
+            color: #0066cc;
+            border: none;
+            padding: 12px 0;
+            cursor: pointer;
+            font-weight: bold;
+            text-align: left;
+            font-size: 17px;
+            margin: 1px 0;
+        }
+
+        .add-button:hover {
+            text-decoration: underline;
+        }
+
+        .add-button::before {
+            content: "+ ";
+            font-weight: bold;
+        }
+
+        /* Обновлённые стили для кнопки "Далее" */
+        .next-button {
+            background-color: #0066cc;
+            color: white;
+            border: none;
+            padding: 10px 20px; /* Уменьшенные отступы */
+            cursor: pointer;
+            font-weight: bold;
+            font-size: 17px;
+            border-radius: 4px;
+            margin-top: 20px;
+            text-align: center;
+            transition: background-color 0.3s;
+            display: inline-block; /* Для выравнивания по левому краю */
+        }
+
+        .next-button:hover {
+            background-color: #0055aa;
+        }
+    </style>
+</head>
+<body>
+    <div class="form-section">
+        <span class="field-header">
+            <span class="field-title">Имя</span>
+            <span class="field-description">Полное имя, как оно указано в статьях</span>
+        </span>
+        <input type="text" id="name" name="name">
+    </div>
+
+    <div class="form-section">
+        <button class="add-button">Добавить имя</button>
+    </div>
+
+    <div class="form-section with-top-border">
+        <span class="field-header">
+            <span class="field-title">Место работы</span>
+            <span class="field-description">Пример: профессор математики, МГУ им. Ломоносова</span>
+        </span>
+        <input type="text" id="workplace" name="workplace">
+    </div>
+
+    <div class="form-section">
+        <span class="field-header">
+            <span class="field-title">Электронная почта для подтверждения</span>
+            <span class="field-description">Пример: kolmogorov@msu.ru</span>
+        </span>
+        <input type="text" id="email" name="email">
+    </div>
+
+    <div class="form-section">
+        <span class="field-header">
+            <span class="field-title">Области интересов</span>
+            <span class="field-description">Пример: топология, турбулентность, функциональный анализ</span>
+        </span>
+        <input type="text" id="interests" name="interests">
+    </div>
+
+    <div class="form-section">
+        <span class="field-header">
+            <span class="field-title">Личная страница (необязательно)</span>
+            <span class="field-description">Пример: http://www.msu.ru/~kolmogorov</span>
+        </span>
+        <input type="text" id="website" name="website">
+    </div>
+
+    <button class="next-button">Далее</button>
+</body>
+</html>
